@@ -1,0 +1,14 @@
+base_lr: 0.000003
+display: 20
+max_iter: 30000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0002
+stepsize: 20000
+snapshot: 2000
+snapshot_prefix: "snapshot/dcnet"
+solver_mode: GPU
+net: "ofnet.prototxt"
+iter_size: 3
+random_seed: 456
